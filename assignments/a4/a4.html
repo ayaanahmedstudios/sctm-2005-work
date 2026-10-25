@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>a4</title>
+        <link rel="stylesheet" href="css.css"> </head>
+
+    <body>
+        <h1>Assignment 4: Interactive Art</h1>
+        <h2>My Game High Score: 96 :)</h2>
+        <canvas id="canvas"></canvas>
+        <h1>documentation</h1>
+        <a href="a4-1.setup.js">1. canvas setup, functions from modules and assignments, color array.</a>
+        <br>
+        <a href="a4-2.starAndStarRotation.js">2. adding the star I created in previous assignments and applying rotation to it.</a>
+        <br>
+        <a href="a4-3.animationLoop.js">3. creating the animationLoop function which will hold all the texts, game functionality and various screens</a>
+        <br>
+        <a href="a4-4.playerRectangle.js">4. creating the player rectangle bar, which is what they use to 'catch' the stars in STAR CATCHER.</a>
+        <br>
+        <a href="a4-5.keyboardMovementInputs.js">5. adding keyboard input into arrow keys which moves the player rectangle.</a>
+        <br>
+        <a href="a4-6.allStarsRandomFalling.js">6. Creating the array and function of all the various stars falling with random properties towards the player rectangle.</a>
+        <br>
+        <a href="a4-7.scoreAndTimer.js">7. Implementing the score and timer system which we learned in module 11 and I wanted to include.</a>
+        <br>
+        <a href="a4-8.collisionDetection.js">8. Adding collision detection between the stars and the player bar which make the game into a game.</a>
+        <br>
+        <a href="a4-9.fasterStars.js">9. Adjusting the stars falling speed.</a>
+        <br>
+        <a href="a4-10.startTitleScreen.js">10. I wanted to create a title screen to make it feel more like a game instead of just suddenly starting the game, it also helped me add mouse input because I couldn't find an exact place to use mouse input within the game but i could use it around it.</a>
+        <br>
+        <a href="a4-11.speedInterval.js">11. Instead of having a single star falling speed, using setInterval I made the stars falling speed increase over the span of the minute in the game.</a>
+        <br>
+        <a href="a4-12.bigSmallStarPoints.js">12. It made sense for different sized stars to give you different points, so using if I chose stars of a specific size to give 1 point and anything else to be 3 points, making the larger easier stars give more points and the smaller harder ones less points.</a>
+        <br>
+        <a href="a4-13.bouncingPlayerRectangleOffSides.js">13. The keyboard input kind of got laggy around the edges when the player rectangle met the left and right side of the canvas, so I tried bounce on it to repel the rectangle of making it easier to use, instead the rectangle just kept bouncing over and over so I removed it.</a>
+        <br>
+        <a href="a4-14.resettingBounceToStop.js">14. Changed the bounce addition back to one where the velocity of the rectangle just stops when it reaches the end.</a>
+        <br>
+        <a href="a4-15.playAgainButtonFromGameOverScreen.js">15. I wanted to add a play again button on the game over screen instead of having the player reload the page everytime to play again.</a>
+        <br>
+        <a href="css.css">16. CSS: Includes the background color I changed of the entire canvas to dark blue, to match like a deep space vibe from games like Space Shooter</a>
+        <br>
+
+        <h1>citations</h1>
+        <a href="https://www.w3schools.com/cssref/pr_background-color.php">w3schools CSS Background Color: I wanted to turn the background of the canvas element dark blue like games like Space Shooter which usually have this color.</a>
+        <br>
+        <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php">w3schools CSS Web Safe Fonts: I wanted to use a font that wasn't Arial so I chose from the web safe fonts I could use without needing to connect an actual font file into my folder.</a>
+        <br>
+        <a href="https://www.w3schools.com/tags/canvas_filltext.asp">w3schools Canvas Fill Text: We used this in module 11 to create the timer and score text but Prof Ian cited it in during the module as well so I cited it.</a>
+        <br>
+        <a href="https://www.w3schools.com/tags/canvas_textalign.asp">w3schools Canvas Text Align: I wanted to align the instructions on the instructions screen to the left, so I used ctx.textAlign for it, also used it for the score and timer.</a>
+        <br>
+        
+    <script src="a4.js"></script>
+    </body>
+</html>
